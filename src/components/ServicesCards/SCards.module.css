@@ -1,0 +1,22 @@
+.cardContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.cardContainer img{
+  width: 150px;
+  height: 150px;
+  font-size: 150px;
+  text-align: center;
+  opacity: .9;
+  transition: .3s ease-in-out all;
+}
+
+.cardContainer img:hover{
+  transition: .3s ease-in-out all;
+  opacity: 10;
+}

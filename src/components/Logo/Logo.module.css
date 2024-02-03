@@ -1,0 +1,10 @@
+.navBarLogo{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+.footer{
+  font-size: 32px;
+}
