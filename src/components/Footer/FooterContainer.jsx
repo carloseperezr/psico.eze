@@ -7,8 +7,8 @@ export const FooterContainer = () => {
       <div className={`${FooterCSS.firstCol}`}>
         <Link to="/" className={`${FooterCSS.logo}`}>
           <svg
-            width="128"
-            height="128"
+            width="90"
+            height="90"
             viewBox="0 0 200 200"
             fill="none"
             id="Scribble-5.svg"
