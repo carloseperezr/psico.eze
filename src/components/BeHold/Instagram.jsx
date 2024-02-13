@@ -6,6 +6,7 @@ export const Instagram = () => {
   return (
     <div className={`${InstagramCSS.container}`}>
       <div className={`${InstagramCSS.wrapper}`}>
+        <h2>Visítame en Instagram</h2>
         <div className={`${InstagramCSS.widget}`}>
           <BeholdWidget />
         </div>

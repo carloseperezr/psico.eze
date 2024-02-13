@@ -1,23 +1,24 @@
+import { Fade } from "react-awesome-reveal";
 import HeroCSS from "./Hero.module.css";
-import { ProfilePic } from "../ProfilePic/ProfilePic.jsx";
+import { HeroGrid } from "./HeroGrid.jsx";
 
 export const HeroContainer = () => {
   return (
     <div className={`${HeroCSS.heroContainer}`}>
       <div className={`${HeroCSS.heroInfoWrapper}`}>
-        <div className={`${HeroCSS.heroImg}`}>
-          <ProfilePic />
-        </div>
-        <div className={`${HeroCSS.heroTextInfo}`}>
-          <h1>Psicólogo Ezequiel Aparicio</h1>
-          <h2>Psicoterapeuta Gestalt</h2>
-          <small>FVP: 000000</small>
-          <div>
-            <div className={`${HeroCSS.heroBtn}`}>
-              <button>Sobre Mi</button>
-              <button>Agenda</button>
-            </div>
+        <div className={`${HeroCSS.heroTextWrapper}`}>
+          <div className={`${HeroCSS.heroTextInfo}`}>
+            <h1>Ezequiel Aparicio</h1>
+            <h2>Psicólogo / Psicoterapeuta Gestalt</h2>
           </div>
+          <div className={`${HeroCSS.heroBtn}`}>
+            <a href="http://tinyurl.com/5edzezwj" target="_blank">
+              <button>Agenda</button>
+            </a>
+          </div>
+        </div>
+        <div className={`${HeroCSS.gridContainer}`}>
+          <HeroGrid />
         </div>
       </div>
     </div>

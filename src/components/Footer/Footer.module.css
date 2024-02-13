@@ -1,0 +1,64 @@
+.footerContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  border-top: 1px solid rgba(169, 169, 169, 0.171);
+  height: 250px;
+}
+
+.firstCol{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.firstCol a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 55px;
+  font-family: var(--primary-text);
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.secondCol{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondCol ul{
+  list-style: none;
+}
+
+.secondCol li{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 20px ;
+  color: var(--font-color);
+  font-family: var(--secondary-text);
+  cursor: pointer;
+}
+
+.secondCol a{
+  text-decoration: none;
+}
+
+
+.thirdCol{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--secondary-text);  
+  color: var(--font-color);
+}
