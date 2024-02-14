@@ -7,7 +7,7 @@ export const faqs = [
   {
     id: 2,
     question: "Filosofia",
-    answer: "Creo en la capacidad innata de cada individuo para sanar y crecer. Mí enfoque terapéutico se centra en trabajar el aquí y ahora, explorado las experiencias de mis pacientes para promover su salud y bienestar emocional"
+    answer: "Creo en la capacidad innata de cada individuo para sanar y crecer. Mí enfoque terapéutico se centra en trabajar el aquí y ahora, explorado las experiencias de mis pacientes para promover su salud y bienestar emocional."
   },
   {
     id: 3,

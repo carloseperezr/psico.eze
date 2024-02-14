@@ -31,48 +31,64 @@
 }
 
 .terapyAdulto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
   margin: 5px;
   border-radius: 10px;
-  text-align: center;
   background-color: var(--primary-color);
   width: 80%;
-  padding: 50px;
   color: var(--font-color);
   font-family: var(--primary-text);
 }
 
 .terapyPareja{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
   margin: 5px;
   border-radius: 10px;
-  text-align: center;
   width: 20%;
   background-color: var(--secondary-color);
   color: var(--font-color);
-  padding: 50px;
   font-family: var(--primary-text);
 
 }
 
 .terapyAdolescente{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 5px;
   border-radius: 10px;
-  text-align: center;
   width: 60%;
-  padding: 50px;
+  height: 200px;
   background-color: var(--font-color);
   font-family: var(--primary-text);
 
 }
 
 .terapyIG{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 5px;
   border-radius: 10px;
-  text-align: center;
   width: 40%;
   background-color: var(--accent-color);
-  padding: 50px;
+  height: 200px;
   color: var(--font-color);
   font-family: var(--secondary-text);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.terapyIG h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width:768px) {
@@ -85,5 +101,6 @@
 
   .terapyAdulto, .terapyPareja, .terapyAdolescente, .terapyIG{
     width: 100%;
+    align-items: center;
   }
 }
