@@ -48,7 +48,7 @@
   grid-column: 2;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.7s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .hiddenBox p{
@@ -61,7 +61,7 @@
 .activeBox {
   max-height: 245px;
   margin-bottom: 24px;
-  transition: max-height 0.7s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .rotate{
